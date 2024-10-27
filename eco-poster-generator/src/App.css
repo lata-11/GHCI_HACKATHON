@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  font-family: 'Arial', sans-serif;
+  background-color: #F5F5F5; /* Light Gray */
+  color: #1A1A19; /* Dark Gray */
 }
 
 .App {
@@ -12,10 +12,44 @@ body {
   text-align: center;
 }
 
-.hero {
-  background: linear-gradient(to right, #3e8e41, #2e6b32);
+.navbar {
+  background-color: #31511E; /* Deep Blue */
   color: white;
-  padding: 40px 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #009688; /* Bright Teal */
+}
+
+.hero {
+  background-color: #31511E; /* Deep Blue */
+  color: #fff; /* Soft Yellow */
+  padding: 60px 20px;
 }
 
 .hero h1 {
@@ -24,31 +58,41 @@ body {
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .info-section {
-  background-color: #fff;
-  padding: 30px 20px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 40px 40px;
+  margin: 0; /* Removed margin between sections */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.info-section h2, .info-section h3 {
-  color: #3e8e41;
+.info-section h2 {
+  color: #31511E; /* Deep Blue */
+}
+
+.info-texts {
+  margin-top: 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.info-texts h3 {
+  margin: 10px 0 5px; /* Spacing for subsection titles */
 }
 
 .form-section {
-  margin: 20px 0;
+  margin: 0; /* Removed margin */
   padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding-bottom: 160px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 input, select, button {
-  margin: 10px;
+  margin: 5px; /* Reduced margin */
   padding: 10px;
   width: 220px;
   border: 1px solid #ccc;
@@ -56,10 +100,15 @@ input, select, button {
 }
 
 button {
-  background-color: #3e8e41;
-  color: white;
+  background-color: #FFC107; /* Soft Yellow */
+  color: #1A1A19; /* Dark Gray */
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffb300; /* Darker Yellow */
 }
 
 button:disabled {
@@ -76,13 +125,13 @@ button:disabled {
 
 .poster-section img {
   max-width: 100%;
-  border: 2px solid #3e8e41;
+  border: 2px solid #003366; /* Deep Blue */
   border-radius: 5px;
 }
 
 footer {
-  margin-top: auto;
-  padding: 10px;
-  background-color: #2e6b32;
-  color: white;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #003366; /* Deep Blue */
+  color: #FFC107; /* Soft Yellow */
 }
