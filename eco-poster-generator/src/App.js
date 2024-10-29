@@ -15,9 +15,9 @@ const App = () => {
         setLoading(true);
         setError('');
 
-        // Simulated API call
         try {
-            const response = await fetch('/api/generate-poster', {
+            // Update the API URL to include the correct port for your Flask backend
+            const response = await fetch('http://localhost:5000/generate-image', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ region, language, issue, additionalDetails }),
@@ -25,7 +25,7 @@ const App = () => {
 
             if (!response.ok) throw new Error('Network response was not ok');
             const data = await response.json();
-            setPoster(data.posterUrl);
+            setPoster(data.image_path);  // Assuming your backend sends back the image path as 'image_path'
         } catch (err) {
             setError('Failed to generate poster. Please try again.');
         } finally {
