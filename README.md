@@ -9,11 +9,47 @@ This project is a submission for the **GHCI 2024 Hackathon**, which aims to crea
 - **Dynamic Text Overlay:** Adds slogans with color-coded text based on relevant keywords.
 - **User-Friendly Interface:** Built with Gradio for an intuitive user experience.
 
-## Installation
+## Running the Notebook
 
-To run this project locally, follow these steps:
+**Note:** This project requires a GPU to run efficiently, especially for generating images using the Stable Diffusion model.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/campaign-poster-generator.git
-   cd campaign-poster-generator
+### Steps to Run in Google Colab
+
+1. **Open Google Colab:**
+   Go to [Google Colab](https://colab.research.google.com/).
+
+2. **Make a Copy:**
+   Click on `File` > `Save a copy in Drive` to create a personal copy of the notebook.
+
+3. **Enable GPU:**
+   - Click on `Runtime` > `Change runtime type`.
+   - Set "Hardware accelerator" to `GPU`, then click `Save`.
+
+4. **Run Each Block:**
+   Execute each code block sequentially by clicking the play button (▶️) next to each cell. Make sure to run the cells in the correct order to ensure all dependencies are loaded properly.
+
+5. **Use the App:**
+   After executing all necessary blocks, the Gradio interface will launch. Enter the required parameters to generate your campaign poster.
+
+
+### Requirements
+
+```markdown
+## Requirements
+
+To ensure the proper functioning of the Campaign Poster Generator, make sure to install the following packages:
+
+- `torch` - For handling deep learning tasks.
+- `transformers` - For using pretrained models and processing inputs.
+- `diffusers` - For generating images using diffusion models.
+- `gradio` - For creating the web interface.
+- `Pillow` - For image processing.
+- `opencv-python` - For adding text to images and other image manipulations.
+- `numpy` - For numerical operations.
+
+## Author
+
+**Lata**  
+**Date:** November 2, 2024
+
+
