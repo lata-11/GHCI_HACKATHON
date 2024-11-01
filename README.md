@@ -1,6 +1,6 @@
 ## 🌿 Campaign Poster Generator
 
-This notebook is a submission for the GHCI 2024 hackathon, which aims to create a solution that can be integrated with generative AI for environmental sustainability and creative AI innovations. It showcases an AI-powered tool for generating environmental campaign posters using Gradio. The tool leverages the Stable Diffusion model to create images based on user-defined parameters, such as region, language, and specific environmental issues. Users can add custom slogans with color-coded text based on keywords. The interface simplifies the process of creating visually impactful posters, promoting awareness for sustainability initiatives.
+This notebook is a submission for the **GHCI 2024 hackathon** organized by AnitaB.org India, which aims to create a solution that can be integrated with generative AI for environmental sustainability and creative AI innovations. It showcases an AI-powered tool for generating environmental campaign posters using Gradio. The tool leverages the Stable Diffusion model to create images based on user-defined parameters, such as region, language, and specific environmental issues. Users can add custom slogans with color-coded text based on keywords. The interface simplifies the process of creating visually impactful posters, promoting awareness for sustainability initiatives.
 
 ## Features
 
