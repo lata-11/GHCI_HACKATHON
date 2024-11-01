@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7ad9ad0a-eb6e-41c2-8769-b14292ccb960)# 🌿 Campaign Poster Generator
+## 🌿 Campaign Poster Generator
 
 This project is a submission for the **GHCI 2024 Hackathon**, which aims to create solutions integrated with generative AI for environmental sustainability and creative innovations. The Campaign Poster Generator is an AI-powered tool designed to create impactful campaign posters that raise awareness for environmental issues.
 
