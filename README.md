@@ -4,10 +4,10 @@ This notebook is a submission for the **GHCI 2024 hackathon** organized by Anita
 
 ## Features
 
-- **Generative AI:** Utilizes the Stable Diffusion model to generate images based on user-defined parameters.
-- **Customizable Inputs:** Users can specify region, language, issue, additional details, and slogans for personalized poster generation.
-- **Dynamic Text Overlay:** Adds slogans with color-coded text based on relevant keywords.
-- **User-Friendly Interface:** Built with Gradio for an intuitive user experience.
+- **Generative AI:** Uses the Stable Diffusion model enhanced with Dreambooth to generate high-quality, customized images based on user-defined parameters.
+- **Customizable Inputs:** Allows users to specify region, language, environmental issue, additional details, and slogans to personalize poster designs.
+- **Dynamic Text Overlay:** Adds impactful, color-coded slogans based on relevant keywords, enhancing the visual message.
+- **User-Friendly Interface:** Built with Gradio to offer an intuitive and accessible experience for all users.
 
 ## Running the Notebook
 
@@ -43,7 +43,7 @@ To ensure the proper functioning of the Campaign Poster Generator, make sure to 
 - `Pillow` - For image processing.
 - `opencv-python` - For adding text to images and other image manipulations.
 - `numpy` - For numerical operations.
-- 
+  
 ### Working
 ## 1
 ![image](https://github.com/user-attachments/assets/32a68259-0e90-414d-8907-3b5ea898842a)
