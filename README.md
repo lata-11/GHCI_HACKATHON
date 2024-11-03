@@ -1,6 +1,12 @@
 ## 🌿 Campaign Poster Generator
 
-This notebook is a submission for the **GHCI 2024 hackathon** organized by AnitaB.org India, which aims to create a solution that can be integrated with generative AI for environmental sustainability and creative AI innovations. It showcases an AI-powered tool for generating environmental campaign posters using Gradio. The tool leverages the Stable Diffusion model to create images based on user-defined parameters, such as region, language, and specific environmental issues. Users can add custom slogans with color-coded text based on keywords. The interface simplifies the process of creating visually impactful posters, promoting awareness for sustainability initiatives.
+This notebook is a submission for the **GHCI 2024 hackathon** organized by AnitaB.org India, which aims to create a solution that can be integrated with generative AI for environmental sustainability and creative AI innovations.
+
+## About 
+
+This project, GreenVision is an AI-powered tool that enables individuals and organizations to create visually impactful posters for environmental awareness. Leveraging the Stable Diffusion model, GreenVision allows users to generate unique images tailored to specific themes, locations, languages, and slogans, making it easy for anyone to create compelling visuals without the need for complex prompt engineering. Designed with accessibility in mind, this solution addresses the needs of diverse users across different regions and literacy levels—from government bodies and NGOs to community organizations and individuals—facilitating the fast and cost-effective creation of highly targeted posters.
+
+The interface, built with Gradio, is intuitive and user-friendly, allowing users to input details and instantly view generated visuals. Although the process is prompt-free, it provides users with extensive options to customize their posters. Beyond the AI-generated slogans accompanying the visuals, users can add their own custom slogans to the poster. After a poster is generated, the user-provided slogan is color-coded based on keywords related to environmental themes (e.g., green for nature, blue for water, brown for soil) and placed over a highlighted band on the poster. This approach not only enhances visual impact but also reinforces the message’s meaning by aligning colors with thematic elements. The final result is a polished, powerful poster ready for public sharing to inspire environmental action.
 
 ## Features
 
