@@ -10,9 +10,9 @@ The interface, built with Gradio, is intuitive and user-friendly, allowing users
 
 ## Features
 
-- **Generative AI:** Uses the Stable Diffusion model enhanced with Dreambooth to generate high-quality, customized images based on user-defined parameters.
-- **Customizable Inputs:** Allows users to specify region, language, environmental issue, additional details, and slogans to personalize poster designs.
-- **Dynamic Text Overlay:** Adds impactful, color-coded slogans based on relevant keywords, enhancing the visual message.
+- **Generative AI:** Uses the Stable Diffusion model enhanced with Dreambooth to generate high-quality, customized posters based on user-defined parameters.
+- **Customizable Inputs:** Allows users to specify region, language, environmental issue, additional details, and slogans to localize poster designs without the need for complex prompt engineering.
+- **Dynamic Text Overlay:** Adds impactful user-provided slogan, color-coded based on relevant keywords, enhancing the visual message.
 - **User-Friendly Interface:** Built with Gradio to offer an intuitive and accessible experience for all users.
 
 ## Running the Notebook
