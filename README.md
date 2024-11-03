@@ -55,7 +55,8 @@ To ensure the proper functioning of the Campaign Poster Generator, make sure to 
 ![image](https://github.com/user-attachments/assets/32a68259-0e90-414d-8907-3b5ea898842a)
 
 ## 2
-![image](https://github.com/user-attachments/assets/48fcad2c-8483-44c6-bdef-3b04fcd11bca)
+![image](https://github.com/user-attachments/assets/857fc416-b754-43b7-8a37-749e21791434)
+
 
 
 
